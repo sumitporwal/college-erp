@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 May, 2020, 9:18:10 AM
+    Author     : Windows
+*/
+        
+        #body2{
+                background-color: cadetblue;
+                margin: 30px;
+             }
+            #form2{
+                padding: 16px;
+                background-color: #FFFFFF;
+                width:350px;height:auto;
+                margin-left: auto;
+                margin-right: auto;
+                color: darkcyan;
+                line-height: 2;
+                color: chartreuse;
+            }
+            
+            .item{
+               margin:5px;width:300px;height: 22px;
+            }
+            .item:disabled:hover{
+                cursor: not-allowed;
+            }
+            #btn1{
+                background-color: green;
+                height:30px;
+                font-weight: bold;
+            }
+            .item1{
+                display: inline-block;
+                margin: 5px;
+                width: 50px;
+                height:22px;
+                color: yellow;
+                cursor: pointer;
+            }
+             #btn2{
+                 background-color: aqua;
+                height:30px;
+                font-weight: bold;
+            }
+            .item:hover{
+                background-color: gold;
+            }
+            #btn1:hover{
+                background-color: darkgreen;
+            }
+            #btn2:hover{
+                background-color: darkblue;
+            }
+            #link{
+                color: blue;
+                text-decoration: none;
+            }

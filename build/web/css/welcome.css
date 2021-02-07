@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 May, 2020, 3:42:14 PM
+    Author     : Windows
+*/
+
+header{
+    position: absolute;
+    left: 340px;
+    top: 0;
+    height: 50px;
+    width: 75%;
+    background-color: beige;
+}
+header table,td,th{
+    border: solid 1px lightgray;
+    border-bottom: 0px;
+    border-top: 0px;
+    column-width: 250px;    
+    border-collapse: collapse;
+    text-align: center;
+        
+        }
+aside{
+    background-color: lightblue;
+    padding: 20px;
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.link{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    color: burlywood;
+    padding: 20px;
+}
+.link1{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+details{
+    margin: 20px 10px;
+}
+
+summary{
+    color: white;
+    font-size: 24px;
+}
+section{
+    position: absolute;
+    top:150px;
+    left:400px;
+}
+article{
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    border:solid 1px bisque;
+    margin-right: 40px;
+    border: solid 1px background;
+    box-shadow: 2px 2px background; 
+    
+}
+h1{
+    text-align: center;
+}
+
